@@ -77,6 +77,7 @@ defmodule PhoenixSwagger.Plug.SwaggerUI do
         url: swagger_url.href,
         dom_id: '#swagger-ui',
         deepLinking: true,
+        defaultModelRendering: 'model',
         presets: [
           SwaggerUIBundle.presets.apis,
           SwaggerUIStandalonePreset
